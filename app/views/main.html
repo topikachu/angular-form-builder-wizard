@@ -45,6 +45,22 @@
         <pre ng-if="isShowScope">{{input}}</pre>
     </div>
 
+
+<div class="row">
+        <h2>Wizard 1</h2>
+        <hr/>
+        <form class="form-horizontal">
+            <fb-wizard/>
+            
+            
+        </form>
+        <div class="checkbox">
+            <label><input type="checkbox" ng-model="isShowScope" ng-init="isShowScope=true" />
+                Show scope
+            </label>
+        </div>
+        <pre ng-if="isShowScope">{{input}}</pre>
+    </div>
     <div class="row">
         <div class="col-md-12 footer"></div>
     </div>
